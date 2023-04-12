@@ -16,6 +16,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 16
+          always-auth: false
 
       - name: Install all dependencies
         run: npm install
