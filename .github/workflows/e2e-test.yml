@@ -15,6 +15,7 @@ jobs:
         env:
           EMAIL: ${{ secrets.EMAIL }}
           PASSWORD: ${{ secrets.PASSWORD }}
+        run: npm run test
 
       - name: run cypress tests with electron
         uses: cypress-io/github-action@v4
