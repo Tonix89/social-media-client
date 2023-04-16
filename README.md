@@ -1,4 +1,4 @@
-[![Deploy static content to Pages](https://github.com/Tonix89/social-media-client/actions/workflows/pages.yml/badge.svg?branch=master)](https://github.com/Tonix89/social-media-client/actions/workflows/pages.yml) [![Automated E2E Testing](https://github.com/Tonix89/social-media-client/actions/workflows/e2e-test.yml/badge.svg)](https://github.com/Tonix89/social-media-client/actions/workflows/e2e-test.yml)
+[![Deploy static content to Pages](https://github.com/Tonix89/social-media-client/actions/workflows/pages.yml/badge.svg?branch=master)](https://github.com/Tonix89/social-media-client/actions/workflows/pages.yml) [![Automated E2E Testing](https://github.com/Tonix89/social-media-client/actions/workflows/e2e-test.yml/badge.svg)](https://github.com/Tonix89/social-media-client/actions/workflows/e2e-test.yml) [![Automated Unit Testing](https://github.com/Tonix89/social-media-client/actions/workflows/unit-test.yml/badge.svg)](https://github.com/Tonix89/social-media-client/actions/workflows/unit-test.yml)
 
 # social-media-client
 ![social-media-client](https://user-images.githubusercontent.com/100238552/230337619-7b4191d0-0f7c-4b77-add1-a7a3e7b906c8.png)
