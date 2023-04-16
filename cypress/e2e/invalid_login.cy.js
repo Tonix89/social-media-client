@@ -33,7 +33,7 @@ describe('invalid login credentials', () => {
       .should('be.visible')
       .click();
     cy.wait(5000);
-    cy.get("input#loginEmail[type='email']").type('userTest@noroff.no');
+    cy.get("input#loginEmail[type='email']").type(Cypress.env('email'));
     cy.get("input#loginPassword[type='password']").type(invalidPassword);
     cy.get('#loginForm button').contains('Login').should('be.visible').click();
 
