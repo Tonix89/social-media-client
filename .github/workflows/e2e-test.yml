@@ -11,11 +11,8 @@ jobs:
       - name: Checkout under $GITHUB_WORKSPACE
         uses: actions/checkout@main
         
-      - name: Run tests
-        env:
-          EMAIL: ${{ secrets.EMAIL }}
-          PASSWORD: ${{ secrets.PASSWORD }}
-        run: npm run test-e2e-cli
+      - name: Write the cypress.env.json file
+        run: echo '${{ secrets.CYPRESS_ENV }}' > cypress.env.json
 
       - name: run cypress tests with electron
         uses: cypress-io/github-action@v4
